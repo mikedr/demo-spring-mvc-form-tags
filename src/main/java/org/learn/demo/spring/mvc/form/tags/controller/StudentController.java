@@ -18,8 +18,7 @@ public class StudentController {
 	
 	@RequestMapping("/processform")
 	public String processStudentForm(@ModelAttribute("student") Student student, Model theModel) {
-		theModel.addAttribute("firstName", student.getFirstName());
-		theModel.addAttribute("lastName", student.getLastName());
+
 		return "student-confirmation";
 	}
 }

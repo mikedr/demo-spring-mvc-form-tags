@@ -8,6 +8,8 @@
 		<title>Student confirmation</title>
 	</head>
 	<body>
-		The student ${student.firstName} ${student.lastName} is confirmed
+		The student ${student.firstName} ${student.lastName} is confirmed. 
+		
+		His country is ${student.country}
 	</body>
 </html>
