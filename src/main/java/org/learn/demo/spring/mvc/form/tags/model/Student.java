@@ -8,6 +8,8 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap<String,String> countryOptions;
+	private String favoriteLanguaje;
+	private String favoriteDB;
 	
 	public Student() {
 		countryOptions = new LinkedHashMap<String, String>();
@@ -45,6 +47,22 @@ public class Student {
 
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
+	}
+
+	public void setFavoriteLanguaje(String favoriteLanguaje) {
+		this.favoriteLanguaje = favoriteLanguaje;
+	}
+
+	public String getFavoriteLanguaje() {
+		return favoriteLanguaje;
+	}
+
+	public String getFavoriteDB() {
+		return favoriteDB;
+	}
+
+	public void setFavoriteDB(String favoriteDB) {
+		this.favoriteDB = favoriteDB;
 	}
 	
 }
